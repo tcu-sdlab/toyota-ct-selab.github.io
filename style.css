@@ -19,20 +19,48 @@
     left:0;
     margin:0;
     color:white;
-    background: skyblue;
+    /*background: skyblue;*/
     font-size:25px;
     padding:5px 10px;
 }
 
-.menu{
-    position: absolute;
-    top:20px;
-    right:20px;
-    width:10%;
-    min-width: 90px;
+.title p1{
+    position:absolute;
     
 }
 
-.menu li{
+menu{
+    position: absolute;
+    top:20px;
+    right:20px;
+    width:160px;
+    min-width: 90px;
+    background-color: white;
+    padding: 0px;
+    
+}
+
+li{
     list-style: none;
+    text-align: center;
+    height: 40px;
+    margin:0px;
+
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+li a.active{
+    color:#ffffff;
+    background-color: black;
+}
+
+li a:hover:not(.active){
+    color: white;
+    background-color:rgb(70, 22, 202);
 }
