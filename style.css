@@ -29,20 +29,20 @@
 .menu{
     position: absolute;
     top:20px;
-    right:20px;
+    left:20px;
     width:170px;
     min-width: 90px;
     background-color: white;
     padding: 0px;
-    
+    border-radius: 20px;
+    display: inline;
 }
 
 li{
-    list-style: none;
+    list-style:none;
     text-align: center;
     height: 40px;
     margin:0px;
-
 }
 
 li a{
@@ -50,16 +50,23 @@ li a{
     color: black;
     display: block;
     padding: 10px;
+    left:20px;
 }
 
 li a.active{
     color:#ffffff;
     background-color: rgb(72, 52, 250);
+    border-radius: 20px;
+    width: 100px;
+    margin: 0 auto;
 }
 
 li a:hover:not(.active){
-    color: white;
-    background-color:rgba(70, 22, 202, 0.404);
+    color: rgb(0, 0, 0);
+    background-color:rgba(44, 25, 212, 0.404);
+    border-radius: 20px;
+    width: 100px;
+    margin: 0 auto;
 }
 
 .menu > li > div {
@@ -68,6 +75,7 @@ li a:hover:not(.active){
 
 .menu > li:hover > div{
     visibility: visible;
+    background-color: rgba(207, 203, 203, 0.849);
 }
 
 li-m{
@@ -75,6 +83,5 @@ li-m{
     text-align: center;
     height: 40px;
     margin:0px;
-
 }
 
