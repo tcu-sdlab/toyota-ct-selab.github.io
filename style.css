@@ -14,9 +14,10 @@
     widows: 100px;
 }
 .title h1{
-    position:absolute;
-    top:0;
-    left:0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
     margin:0;
     color:white;
     /*background: skyblue;*/
@@ -24,16 +25,12 @@
     padding:5px 10px;
 }
 
-.title p1{
-    position:absolute;
-    
-}
 
-menu{
+.menu{
     position: absolute;
     top:20px;
     right:20px;
-    width:160px;
+    width:170px;
     min-width: 90px;
     background-color: white;
     padding: 0px;
@@ -57,10 +54,27 @@ li a{
 
 li a.active{
     color:#ffffff;
-    background-color: black;
+    background-color: rgb(72, 52, 250);
 }
 
 li a:hover:not(.active){
     color: white;
-    background-color:rgb(70, 22, 202);
+    background-color:rgba(70, 22, 202, 0.404);
 }
+
+.menu > li > div {
+    visibility: hidden;
+}
+
+.menu > li:hover > div{
+    visibility: visible;
+}
+
+li-m{
+    list-style: none;
+    text-align: center;
+    height: 40px;
+    margin:0px;
+
+}
+
