@@ -13,3 +13,14 @@
     font-size: 70px;
     
 }
+
+.overview{
+    border: 1px solid #cccccc;
+    background-color: skyblue;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.list{
+    
+}
