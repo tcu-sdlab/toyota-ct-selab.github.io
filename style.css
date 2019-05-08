@@ -76,6 +76,7 @@ li a:hover:not(.active){
 .menu > li:hover > div{
     visibility: visible;
     background-color: rgba(207, 203, 203, 0.849);
+    border-radius:20px;
 }
 
 li-m{
@@ -84,4 +85,3 @@ li-m{
     height: 40px;
     margin:0px;
 }
-

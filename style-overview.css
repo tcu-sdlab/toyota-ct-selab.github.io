@@ -1,0 +1,15 @@
+.image{
+    width:1920px;
+    height:600px;
+    object-fit: cover;
+}
+
+.title p{
+    position: absolute;
+    color:white;
+    top:335px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    
+}
