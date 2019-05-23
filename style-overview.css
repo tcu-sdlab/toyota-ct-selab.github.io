@@ -11,16 +11,17 @@
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 70px;
-    
+    margin-bottom: 2.5rem;
 }
 
 .overview{
     border: 1px solid #cccccc;
-    background-color: skyblue;
+    background-color: rgb(46, 154, 197);
     width: 900px;
     margin: 0 auto;
 }
 
-.list{
-    
+.overview .list{
+    text-align: center;
+    font-size: 50px;
 }
