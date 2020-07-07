@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/toyota-ct-selab/website#readme",
   "devDependencies": {
-    "electron": "^5.0.1"
+    "electron": "^9.1.0"
   }
 }
